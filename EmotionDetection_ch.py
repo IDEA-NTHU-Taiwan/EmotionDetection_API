@@ -8,7 +8,7 @@ class EmotionDetection(object):
     def __init__(self):
         super(EmotionDetection, self).__init__()
 
-    __url = 'http://192.168.2.23:5678/chuck/couple'
+    __url = 'http://192.168.2.100:5678/chuck/couple'
 
     def get_obj(self, texts_list):
         '''
